@@ -13,6 +13,7 @@ systemctl enable docker && systemctl start docker
 
 # 删除docker
 
+```
 sudo yum remove docker \
                   docker-client \
                   docker-client-latest \
@@ -21,3 +22,4 @@ sudo yum remove docker \
                   docker-latest-logrotate \
                   docker-logrotate \
                   docker-engine
+```
