@@ -15,4 +15,10 @@ EOF
 ```
 yum install -y kubelet kubeadm kubectl
 systemctl enable kubelet && systemctl start kubelet
+
+```
+
+# 指定版本
+```
+yum install -y kubelet-1.18.0 kubeadm-1.18.0 kubectl-1.18.0
 ```
