@@ -1,6 +1,7 @@
 # 修改docker环境
 
 ```
+ tee /etc/docker/daemon.json <<-'EOF'
 {
   "registry-mirrors": ["https://bvae0o1g.mirror.aliyuncs.com"],
   "exec-opts": ["native.cgroupdriver=systemd"],
@@ -13,4 +14,5 @@
     "overlay2.override_kernel_check=true"
   ]
 }
+EOF
 ```
